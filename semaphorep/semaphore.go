@@ -1,9 +1,10 @@
 package semaphorep
 
 import (
-	"ajika/pkg/nullables"
 	"database/sql"
 	"time"
+
+	"github.com/o-log/ajika/nullables"
 )
 
 type Semaphore struct {

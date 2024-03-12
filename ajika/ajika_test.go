@@ -1,9 +1,10 @@
 package ajika
 
 import (
-	"ajika/pkg/wraperr"
 	"net/http"
 	"testing"
+
+	"github.com/o-log/ajika/wraperr"
 )
 
 func TestSSRFNegative(t *testing.T) {

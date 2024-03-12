@@ -1,10 +1,9 @@
 package semaphorep
 
 import (
-	"ajika/pkg/nullables"
-	"ajika/pkg/wraperr"
-
 	"github.com/google/uuid"
+	"github.com/o-log/ajika/nullables"
+	"github.com/o-log/ajika/wraperr"
 	"gorm.io/gorm"
 )
 

@@ -1,8 +1,7 @@
 package semaphorep
 
 import (
-	"ajika/pkg/wraperr"
-
+	"github.com/o-log/ajika/wraperr"
 	"gorm.io/gorm"
 )
 

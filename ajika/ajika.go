@@ -1,7 +1,6 @@
 package ajika
 
 import (
-	"ajika/pkg/wraperr"
 	"bytes"
 	"io"
 	"net/http"
@@ -9,6 +8,8 @@ import (
 	"slices"
 	"strconv"
 	"time"
+
+	"github.com/o-log/ajika/wraperr"
 )
 
 // struct used to create service instance for injections
