@@ -1,4 +1,4 @@
-module ajika
+module github.com/o-log/ajika
 
 go 1.21.5
 
