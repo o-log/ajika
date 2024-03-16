@@ -5,6 +5,7 @@ type Salt interface {
 	Debugf(template string, args ...interface{})
 	Debug(args ...interface{})
 	Error(args ...interface{})
+	Warn(args ...interface{})
 }
 
 type MockSalt struct {
@@ -17,4 +18,7 @@ func (salt MockSalt) Debug(args ...interface{}) {
 }
 
 func (salt MockSalt) Error(args ...interface{}) {
+}
+
+func (salt MockSalt) Warn(args ...interface{}) {
 }
