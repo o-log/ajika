@@ -1,1 +1,3 @@
 # ajika
+
+    go test ./...
